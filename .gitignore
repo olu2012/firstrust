@@ -1,0 +1,29 @@
+/target
+
+
+# Recommended for library projects, optional for binary projects
+Cargo.lock
+
+# Optional: Ignore IDE specific files
+# Replace with your IDE of choice (e.g., IntelliJ IDEA, Visual Studio Code)
+.idea/
+.vscode/
+
+# Ignore temporary files created by editor plugins
+*.swp
+
+# Ignore test results
+# Adjust the pattern based on your test framework
+test/results.txt
+
+# Ignore generated documentation
+docs/
+
+# Ignore linecache files (if using Cargo for linting)
+.rustc_cache
+
+# Ignore vendored dependencies (if using vendoring instead of Cargo)
+vendor/
+
+# Ignore examples directory (if applicable)
+examples/
